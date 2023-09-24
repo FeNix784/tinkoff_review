@@ -62,6 +62,6 @@
 следующую строку в конфигурационный файл: 
 ```xml
 <session-factory>
-    
+    <property name="hibernate.cache.use_query_cache">true</property>
 </session-factory>
 ```
