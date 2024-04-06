@@ -29,7 +29,7 @@ dependencies {
     implementation("net.sf.ehcache:ehcache:2.10.9.2")
     implementation("net.sf.ehcache:ehcache-core:2.6.11")
 
-    runtimeOnly("com.h2database:h2")
+    implementation("com.h2database:h2:2.2.224")
 
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
